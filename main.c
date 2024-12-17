@@ -1,8 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define Success 1
-#define Failure 0
+enum returnvalue
+{
+    Failure = 0,
+    Success
+};
 
 struct node
 {
